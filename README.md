@@ -1,13 +1,13 @@
-# 𐌕Ꝋ𐌃Ꝋ App
 
-This is a simple drag & drop todo's web app built with **React**, **TypeScript**, **Framer Motion**, and **Tailwind CSS**. It features task creation, searching, editing, and deleting with a clean and modern UI.
+<div align="center" > 
+   <h1>𐌕Ꝋ𐌃Ꝋ </h1>
+   <p>This is a simple drag & drop todo's web app built with <strong>React</strong>, <br/> <strong>TypeScript</strong>, <strong>Framer Motion</strong>, and <strong>Tailwind CSS</strong>. It features task creation, searching, <br/> editing, and deleting with a clean and modern UI.</p>
+  <a href="https://todoos.vercel.app/"><strong>➥ Live Demo</strong></a>
+</div>
+
 
 ## :camera: Demo Screenshots
 ![Image](https://github.com/user-attachments/assets/3b79fb8d-24c9-4239-9804-cde0532e9f2b)
-
-<div align="center">
-  <a href="https://todosl.vercel.app/"><strong>➥ Live Demo</strong></a>
-</div>
 
 ## 🚀 Features
 - 📌 **Drag-and-drop** Smooth drag and drop operation 
@@ -17,32 +17,24 @@ This is a simple drag & drop todo's web app built with **React**, **TypeScript**
 - 🏷️ **Tagging System**: Organize tasks using tags.
 - 📦 **State Management**: Context API for global state.
 - 🎨 **Animated UI**: Framer Motion for smooth interactions.
-- ☁️ **Mock API Integration**: Fetch and manage tasks dynamically.
 
 ## 🛠️ Tech Stack
 - **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion
 - **State Management:** Context API
-- **API Handling:** Axios
 - **UI Icons:** Lucide-react
 - **Notifications:** react-hot-toast
 
 ## 📦 Installation
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/psparwez/todos.git
-   cd todos
+   git clone  https://github.com/psparwez/todoo.git
+   cd todoo
    ```
 2. **Install Dependencies**
    ```sh
    npm install
    ```
-3. **Set Up Environment Variables**
-   - Create a `.env` file in the root directory
-   - Add the following:
-     ```sh
-     VITE_MOCK_API_URL=
-     ```
-4. **Run the App**
+3. **Run the App**
    ```sh
    npm run dev
    ```
@@ -57,7 +49,6 @@ This is a simple drag & drop todo's web app built with **React**, **TypeScript**
 ## 🛠️ Future Enhancements
 - 🌍 **Dark Mode** support
 - 🔄 **Task Status Updates** (In Progress, Completed, etc.)
-- 📅 **Calendar View** for better task organization
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo and submit a PR.
