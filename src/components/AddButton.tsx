@@ -5,6 +5,7 @@ import AddNew from './AddNew';
 import { Context } from '../context/context';
 import Loader from '../shared/Loader';
 import { navigateWithoutRedirect } from '../utils/navigation';
+import { Task } from './Card';
 
 const AddButton: React.FC = () => {
     const context = useContext(Context);
@@ -36,7 +37,7 @@ const AddButton: React.FC = () => {
 
             try {
                 const updatedTasks = JSON.parse(localStorage.getItem('tasks') || '[]');
-                const foundTask = updatedTasks.find((task) => task.id === taskId);
+                const foundTask = updatedTasks.find((task: Task) => task.id === taskId);
                 setTask(foundTask || null);
             } catch (error) {
                 console.error("Error fetching task:", error);

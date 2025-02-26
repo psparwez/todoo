@@ -14,7 +14,7 @@ interface CardProps {
     reference: React.RefObject<HTMLDivElement>;
 }
 
-interface Task {
+export interface Task {
     id: number;
     taskName: string;
     description: string;
